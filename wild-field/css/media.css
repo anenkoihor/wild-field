@@ -1,0 +1,251 @@
+        @media(max-width:1875px) {
+            .container-text-mod {
+                max-width: 75%;
+            }
+        }
+        
+        @media(max-width:1710px) {
+            .container-text-mod {
+                margin: 0;
+            }
+        }
+        
+        @media(max-width:1710px) {
+            .text {
+                right: 4%;
+            }
+        }
+        
+        @media(max-width:1440px) {
+            .trailer-items .item1 iframe {
+                width: 800px;
+                height: 450px;
+            }
+        }
+        
+        @media(max-width:1320px) {
+            .device__container {
+                flex-wrap: wrap;
+            }
+            .trailer-items .item1 iframe {
+                width: 700px;
+                height: 400px;
+            }
+        }
+        
+        @media(max-width:1285px) {
+            .text {
+                right: 1%;
+            }
+            .vsplblock {
+                top: 33%;
+            }
+        }
+        
+        @media(max-width:1255px) {
+            .text {
+                right: 5%;
+                bottom: 5%;
+            }
+            .mens img {
+                width: 80%;
+            }
+            .menandtext {
+                height: 70vh;
+            }
+        }
+        
+        @media (max-width: 1170px) {
+            .text {
+                right: 1%;
+            }
+            .grid-item {
+                column-gap: 2rem;
+            }
+            .trailer-items .item1 iframe {
+                width: 600px;
+                height: 305px;
+            }
+            .item2 img {
+                width: 190px;
+                height: 110px;
+                margin-bottom: 15px;
+            }
+            .item2 {
+                padding-left: 40px;
+            }
+        }
+        
+        @media(max-width:1120px) {
+            .mens {
+                display: none;
+            }
+            .button {
+                margin: 70px auto 0;
+            }
+            .text {
+                top: 37%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .text h3 {
+                text-align: center;
+                font-size: 27px;
+            }
+            .exit {
+                margin: 18px auto 0 !important;
+            }
+            .countdown {
+                margin: 0 auto;
+            }
+        }
+        
+        @media(max-width:1005px) {
+            .trailer-items .item1 iframe {
+                width: 500px;
+            }
+        }
+        
+        @media(max-width:860px) {
+            .textinmodal {
+                padding: 20px;
+            }
+            .textinmodal h2 {
+                font-size: 28px;
+            }
+            .grid-item {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 9% 61% 1%;
+                grid-gap: 0px;
+                grid-template-areas: "part1" "part2" "part3";
+            }
+            .button {
+                margin: 50px auto 0;
+                width: 290px;
+                height: 60px;
+                font-size: 20px;
+                line-height: 60px;
+            }
+            input {
+                margin-bottom: 30px;
+                margin-top: 50px;
+            }
+            .trailer-items .item2 {
+                display: none;
+            }
+            .device__container {
+                flex-wrap: wrap;
+            }
+        }
+        
+        @media(max-width:630px) {
+            .text_background h3 {
+                font-size: 40px;
+            }
+            .container.actor {
+                margin: 0 auto;
+            }
+            .textinmodal h2 {
+                font-size: 20px;
+            }
+            .textinmodal p {
+                font-size: 16px;
+            }
+            .text {
+                width: 500px;
+                top: 37%;
+            }
+            .menandtext {
+                height: 58vh;
+            }
+            .text p {
+                font-size: 20px;
+            }
+            .text h3 {
+                text-align: center;
+                font-size: 19px;
+            }
+            .text img {
+                width: 100%;
+            }
+            .container {
+                margin: 0px auto 60px;
+            }
+            .trailer-items .item1 iframe {
+                width: 430px;
+                height: 245px;
+            }
+            .countdown {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+        
+        @media(max-width:500px) {
+            .countdown-number {
+                width: 70px;
+                height: 70px;
+            }
+            .countdown-time {
+                font-size: 40px;
+            }
+            .text h3 {
+                font-size: 15px;
+            }
+            .text p {
+                font-size: 14px;
+            }
+            .text {
+                width: 307px;
+                top: 45%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .countdown {
+                width: 100%;
+            }
+            header {
+                left: 2%;
+            }
+            input {
+                margin-bottom: 25px;
+                margin-top: 25px;
+            }
+            .button {
+                width: 260px;
+                height: 55px;
+                line-height: 55px;
+            }
+            .text img {
+                width: 100%;
+            }
+            .text_background h3 {
+                font-size: 24px;
+            }
+            .part1 h1 {
+                font-size: 22px;
+            }
+            .part1 h2 {
+                font-size: 14px;
+            }
+            .part3 h3 {
+                font-size: 18px;
+            }
+            .part3 p {
+                font-size: 14px;
+            }
+            .grid-item {
+                grid-template-rows: 10% auto auto;
+            }
+            .trailer-items .item1 iframe {
+                width: 300px;
+                height: 170px;
+            }
+            .owl-carousel .owl-nav button.owl-prev,
+            .owl-carousel .owl-nav button.owl-next,
+            .owl-carousel button.owl-dot {
+                margin: -3px;
+            }
+        }
